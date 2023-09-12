@@ -1,0 +1,33 @@
+{
+  "name": "authpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "devStart": "nodemon ./index.ejs",
+    "serverStart": "DEBUG=AuthPractice:* npm run devStart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhlegmMignon/AuthPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhlegmMignon/AuthPractice/issues"
+  },
+  "homepage": "https://github.com/PhlegmMignon/AuthPractice#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.5.1",
+    "node": "^20.6.0",
+    "nodemon": "^3.0.1",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
